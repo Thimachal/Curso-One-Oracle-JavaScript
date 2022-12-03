@@ -7,12 +7,14 @@
     let loginInformado = prompt("Informe seu login");
     let senhaInformada = prompt("Informe sua senha");
 
+    while (tentativas <= 3) {
+        if (loginCadastrado == loginInformado && senhaCadastrada == senhaInformada) {
 
-    if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+            alert("Bem-vindo ao sistema " + loginInformado);
+        } else {
 
-        alert("Bem-vindo ao sistema " + loginInformado);
-    } else {
+            alert("Login inválido. Tente novamente");
+        }
 
-        alert("Login inválido. Tente novamente");
     }
 </script>
