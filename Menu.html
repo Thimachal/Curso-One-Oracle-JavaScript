@@ -7,6 +7,7 @@
     let loginInformado = prompt("Informe seu login");
     let senhaInformada = prompt("Informe sua senha");
 
+    let tentativas = 0;
     while (tentativas <= 3) {
         if (loginCadastrado == loginInformado && senhaCadastrada == senhaInformada) {
 
@@ -15,6 +16,6 @@
 
             alert("Login inválido. Tente novamente");
         }
-
+        tentativas++;
     }
 </script>
