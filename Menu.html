@@ -3,12 +3,11 @@
 
     const loginCadastrado = "oi";
     const senhaCadastrada = "123";
-
-    let loginInformado = prompt("Informe seu login");
-    let senhaInformada = prompt("Informe sua senha");
-
     let tentativas = 0;
     while (tentativas <= 3) {
+        let loginInformado = prompt("Informe seu login");
+        let senhaInformada = prompt("Informe sua senha");
+
         if (loginCadastrado == loginInformado && senhaCadastrada == senhaInformada) {
 
             alert("Bem-vindo ao sistema " + loginInformado);
