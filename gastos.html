@@ -16,11 +16,14 @@
 
     var contador = 1;
 
+    var totalGastoComEventos = 0;
+
     while(contador <= totalDeEventos) {
 
-        var totalGastoComEventos = 0;
         var gasto = parseFloat(prompt("Informe total gasto com evento"));
+
         totalGastoComEventos = totalGastoComEventos + gasto;
+
         contador++;
     }
 
