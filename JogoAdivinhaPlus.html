@@ -14,7 +14,7 @@
 
 
     <script>
-        let segredo = 10;
+        let segredo = Math.random * 10;
         let inputado = document.querySelector('input');
 
         function verifica() {
@@ -25,7 +25,6 @@
             }
             inputado.value ="";
             inputado.focus();
-
         }
 
         let butao = document.querySelector('button');
