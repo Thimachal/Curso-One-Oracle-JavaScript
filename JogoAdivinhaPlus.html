@@ -16,7 +16,7 @@
     <script>
         let segredo = Math.round(Math.random() * 10);
         let inputado = document.querySelector('input');
-        inputado.focus();
+        inputado.focus();//já carrega a página com o cursor no campo
 
         function verifica() {
             if (inputado.value == segredo) {
@@ -25,7 +25,7 @@
                 alert("Errrouuu");
             }
             inputado.value ="";
-            inputado.focus();
+            inputado.focus();//após o botão ele vai voltar a focar dentro da caixa com o cursos piscando
         }
 
         let butao = document.querySelector('button');
