@@ -15,17 +15,17 @@
 
     <script>
         let segredo = 10;
-        let inputado = document.querySelector("input");
+        let inputado = document.querySelector('input');
 
         function verifica() {
-            if (inputado === segredo) {
+            if (inputado.value === segredo) {
                 alert("Acertou!!!");
             } else {
                 alert("Errrouuu");
             }
         }
 
-        let butao = document.querySelector("button");
+        let butao = document.querySelector('button');
         butao.onclick = verifica;
 
 
