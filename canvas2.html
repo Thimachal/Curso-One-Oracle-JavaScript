@@ -12,7 +12,7 @@
     <canvas width="600" height="400"></canvas>
 
     <script>
-        function desenhaQuadradoVerde() {
+        function desenhaQuadradoVerde(x) {
 
             var tela = document.querySelector('canvas');
             var pincel = tela.getContext('2d');
@@ -24,9 +24,9 @@
 
         }
 
-        desenhaQuadradoVerde();
-        desenhaQuadradoVerde();
-        desenhaQuadradoVerde();
+        desenhaQuadradoVerde(0);
+        desenhaQuadradoVerde(50);
+        desenhaQuadradoVerde(100);
     
 
     </script>
