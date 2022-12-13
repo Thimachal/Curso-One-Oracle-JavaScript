@@ -20,14 +20,14 @@
             pincel.fillStyle = cor;
             pincel.fillRect(x, y, 50, 50);
 
-            pincel.strokeStyle = cor;
+            pincel.strokeStyle = 'black';
             pincel.strokeRect(x, y, 50, 50);
 
         }
         let x = 0;
         while (x < 600){
-            desenhaQuadrado(x, 0, 'blue');
-            desenhaQuadrado(x, 50, 'black');
+            desenhaQuadrado(x, 0, 'red');
+            desenhaQuadrado(x, 50, 'white');
             desenhaQuadrado(x, 100, 'yellow');
             x = x + 50;
         }
