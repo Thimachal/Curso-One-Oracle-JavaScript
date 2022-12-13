@@ -25,11 +25,18 @@
 
         }
         let x = 0;
-        while (x < 600){
+       /* while (x < 600){
             desenhaQuadrado(x, 0, 'red');
             desenhaQuadrado(x, 50, 'white');
             desenhaQuadrado(x, 100, 'yellow');
             x = x + 50;
+        }*/
+
+        for(x = 0; x< 600; x += 50){
+            desenhaQuadrado(x, 0, 'red');
+            desenhaQuadrado(x, 50, 'white');
+            desenhaQuadrado(x, 100, 'yellow');
+
         }
 
         
